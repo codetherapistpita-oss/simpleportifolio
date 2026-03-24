@@ -2,29 +2,41 @@
 
 A clean, responsive **front-end portfolio** built with **HTML, CSS, and vanilla JavaScript**. It highlights your story, tech stack, image gallery, FAQs, and social presence—ready to host on [GitHub Pages](https://pages.github.com/) or any static host.
 
+### Live demo
+
+**[Open the live site →](https://codetherapistpita-oss.github.io/simpleportifolio/)**
+
+| | |
+|:--|:--|
+| **URL** | [https://codetherapistpita-oss.github.io/simpleportifolio/](https://codetherapistpita-oss.github.io/simpleportifolio/) |
+
+Tap the link above (or the URL) to view the portfolio in your browser—the same build as this repository on GitHub Pages.
+
 ---
 
-## Preview
+## Screenshots
+
+Captured from the **live** deployment at [codetherapistpita-oss.github.io/simpleportifolio](https://codetherapistpita-oss.github.io/simpleportifolio/) (desktop viewport ~1440×900).
+
+### 1 · Hero, navigation & intro
+
+![Portfolio screenshot — hero section with portrait, headline, CTAs, and quick-fact cards](readme-assets/screenshot-hero.png)
+
+### 2 · Gallery & common questions
+
+![Portfolio screenshot — image gallery and FAQ accordion](readme-assets/screenshot-gallery-faq.png)
+
+---
+
+## About the visuals in the repo
 
 <p align="center">
-  <img src="images/portrait.jpeg" alt="Code Therapist — portrait" width="280" style="border-radius: 12px;" />
+  <img src="images/portrait.jpeg" alt="Code Therapist — portrait" width="240" />
   &nbsp;&nbsp;
-  <img src="images/logo2.jpeg" alt="Code Therapist — brand logo" width="200" style="border-radius: 12px;" />
+  <img src="images/logo2.jpeg" alt="Code Therapist — brand logo" width="180" />
 </p>
 
-<p align="center">
-  <strong>Hero + layout</strong> — gradient accents, sticky nav, scroll reveal, mobile menu, and a structured hero with optional “quick facts” cards.
-</p>
-
-### Gallery strip
-
-<p align="center">
-  <img src="images/pexels-alef-morais-336305364-30684729.jpg" alt="Gallery sample 1" width="18%" />
-  <img src="images/pexels-aleksey-kuprikov-1883853-3493777.jpg" alt="Gallery sample 2" width="18%" />
-  <img src="images/pexels-chris-janda-12879-62600.jpg" alt="Gallery sample 3" width="18%" />
-  <img src="images/pexels-frankdhill-1599899.jpg" alt="Gallery sample 4" width="18%" />
-  <img src="images/pexels-tomas-anunziata-129267-3876394.jpg" alt="Gallery sample 5" width="18%" />
-</p>
+<p align="center"><sub>Portrait and logo assets used on the site (also in <code>images/</code>).</sub></p>
 
 ---
 
@@ -80,12 +92,13 @@ Push to a GitHub repo → **Settings → Pages →** deploy from branch (usually
 
 ```
 simpleportifolio/
-├── index.html       # Main page
-├── style.css        # Styles
-├── main.js          # Nav, reveal, FAQ, applies site-config links
-├── site-config.js   # Your optional social URLs (template-safe when empty)
-├── README.md        # This file
-└── images/          # Photos & assets
+├── index.html          # Main page
+├── style.css           # Styles
+├── main.js             # Nav, reveal, FAQ, applies site-config links
+├── site-config.js      # Your optional social URLs (template-safe when empty)
+├── README.md           # This file
+├── readme-assets/      # README screenshots (live site captures)
+└── images/             # Photos & assets for the site
 ```
 
 ---
